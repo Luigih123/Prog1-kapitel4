@@ -1,7 +1,6 @@
-n = int(input('n? '))
-summa = 0
-k = 1
-while k <= n:
-    summa = summa + k
-    k = k + 3
-print('Summan blir', summa)
+print('[', end='')
+k = 0
+while k < 6:
+    print(f'{k:2}', end='')
+    k = k + 2
+print(' ]')
